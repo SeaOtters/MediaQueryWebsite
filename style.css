@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Calibri", san-serif;
+    font-weight: 100;
+    box-sizing:border-box;
+}
+
+header {
+
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 150px;
+    padding: 50px 0px;
+    background-color: orange;
+
+}
+
+section {
+
+    float: left;
+    font-weight: 300;
+    padding: 30px;
+    width: 50%;
+    font-size: 14px;
+    color: #7d7d7d;
+    box-sizing: border-box;
+}
+/*width, height, min-width, min-height, max-width, and max-height */
+
+@media (max-width: 600px) {
+
+    section {
+
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+
+    section {
+
+        font-size: 18px;
+    }
+}
+
+@media only print and (max-width: 500px) {
+
+    header{
+    height: 100px;
+}
+}
